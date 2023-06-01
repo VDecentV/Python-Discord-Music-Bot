@@ -16,8 +16,6 @@ TOKEN = os.getenv("TOKEN")
 intents = discord.Intents.all()
 bot = discord.Bot(intents=intents)
 
-if not discord.opus.is_loaded():
-    discord.opus.load_opus('opus')
 
 ffmpeg_options = {
     "options": "-vn",

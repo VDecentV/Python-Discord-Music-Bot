@@ -1,0 +1,5 @@
+discord.py==2.2.3
+python-dotenv==1.0.0
+pytube==15.0.0
+yt_dlp==2023.3.4
+py-cord==2.4.1
